@@ -1,0 +1,22 @@
+.contact-container {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.contact {
+  display: flex;
+  align-items: start;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
